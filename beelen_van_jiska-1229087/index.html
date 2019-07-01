@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code for Kids</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Playfair+Display:700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="header-logo" src="img/logo.svg" alt="logo">
+        <img id="header-logo2" src="img/logo2.svg" alt="logo2">
+        <nav>
+            <ul>
+                <li><a href="#">over ons</a></li>
+                <li><a href="#">lesmateriaal</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <main>
+        <div id="banner">
+            <div id="banner-text">
+                <h2>Van beginner naar expert</h2>
+                <h2>Het lesmateriaal brengt je verder</h2>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+            </div>
+        </div>
+        <div id="playlist" class="wrap">
+            <div class="section-title">
+                <h3>Playlist</h3>
+            </div>
+            <div id="accordion" class="wrap">
+                <div class="accordion-header">
+                    <div class="left">
+                        <svg class="triangle" xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+                            <path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+                        </svg>
+                        <h3>Algemene introductie</h3>
+                        <div id="done" class="done">
+                            <img class="done-check" src="img/check.svg" alt="done">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button type="button" class="intro textBtn">intro</button>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="accordion-cont">
+                    <h4>Algemene introductie</h4>
+                    <video id="player" class="video-js" data-setup='{"fluid":true}'>
+                        <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video> 
+                    
+                    <button type="button" id="rewind" class="btn rewindBtn">
+                        <img class="rewindIcon" src="img/rewind.svg" alt="rewind">
+                    </button>
+                    <button type="button" id="play" class="btn playBtn">
+                        <img class="playIcon" src="img/play.svg" alt="play"/>
+                    </button>
+                    <button type="button" id="check" class="btn checkBtn">
+                        <img class="checkIcon" src="img/check.svg" alt="check">
+                    </button>
+
+                </div>
+
+
+                <div class="accordion-header">
+                    <div class="left">
+                        <svg class="triangle" xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+                            <path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+                        </svg>
+                        <h3>Workshop 1: Kleuren met code</h3>
+                        <div id="done2" class="done">
+                            <img class="done-check" src="img/check.svg" alt="done">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button type="button" class="workshop textBtn">Workshop
+                        </button>
+                        <button type="button" class="download textBtn" onclick="window.location.href='#';">
+                            <img class="download-icon" src="img/download.svg" alt="downloads">Downloads
+                        </button>
+                    </div>
+                </div>
+                <div class="accordion-cont">
+                    <h4>Workshop 1: Kleuren met code</h4>
+                    <video id="player2" class="video-js" data-setup='{"fluid":true}'>
+                        <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video> 
+                    <button type="button" id="rewind2" class="btn rewindBtn">
+                        <img class="rewindIcon" src="img/rewind.svg" alt="rewind">
+                    </button>
+                    <button type="button" id="play2" class="btn playBtn">
+                        <img class="playIcon" src="img/play.svg" alt="play">
+                    </button>
+                    <button type="button" id="check2" class="btn checkBtn">
+                        <img class="checkIcon" src="img/check.svg" alt="check">
+                    </button>
+                </div>
+                
+                <div class="accordion-header">
+                    <div class="left">
+                        <svg class="triangle" xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+                            <path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+                        </svg>
+                        <h3>Workshop 2: Vormen maken</h3>
+                        <div id="done3" class="done">
+                            <img class="done-check" src="img/check.svg" alt="done">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button type="button" class="workshop textBtn">Workshop
+                        </button>
+                    </div>
+                </div>
+                <div class="accordion-cont">
+                    <h4>Workshop 2: Vormen maken</h4>
+                    <video id="player3" class="video-js" data-setup='{"fluid":true}'>
+                        <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video> 
+                    <button type="button" id="rewind3" class="btn rewindBtn">
+                        <img class="rewindIcon" src="img/rewind.svg" alt="rewind">
+                    </button>
+                    <button type="button" id="play3" class="btn playBtn">
+                        <img class="playIcon" src="img/play.svg" alt="play">
+                    </button>
+                    <button type="button" id="check3" class="btn checkBtn">
+                        <img class="checkIcon" src="img/check.svg" alt="check">
+                    </button>
+                </div>
+
+                <div class="accordion-header">
+                    <div class="left">
+                        <svg class="triangle" xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+                            <path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+                        </svg>
+                        <h3>Workshop 3: Beweging</h3>
+                        <div id="done4" class="done">
+                            <img class="done-check" src="img/check.svg" alt="done">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button type="button" class="workshop textBtn">Workshop
+                        </button>
+                        <button type="button" class="download textBtn" onclick="window.location.href='#';">
+                            <img class="download-icon" src="img/download.svg" alt="downloads">Downloads
+                        </button>
+                    </div>
+                </div>
+                <div class="accordion-cont">
+                    <h4>Workshop 3: Beweging</h4>
+                    <video id="player4" class="video-js" data-setup='{"fluid":true}'>
+                        <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video> 
+                    <button type="button" id="rewind4" class="btn rewindBtn">
+                        <img class="rewindIcon" src="img/rewind.svg" alt="rewind">
+                    </button>
+                    <button type="button" id="play4" class="btn playBtn">
+                        <img class="playIcon" src="img/play.svg" alt="play">
+                    </button>
+                    <button type="button" id="check4" class="btn checkBtn">
+                        <img class="checkIcon" src="img/check.svg" alt="check">
+                    </button>
+                </div>
+
+                <div class="accordion-header">
+                    <div class="left">
+                        <svg class="triangle" xmlns="http://www.w3.org/2000/svg" width="29.941" height="29.941" viewBox="0 0 29.941 29.941">
+                            <path id="Path_14" data-name="Path 14" d="M0,2.828,21.172,0,18.343,21.172Z" transform="translate(14.971) rotate(45)" fill="#4b4b4b" />
+                        </svg>
+                        <h3>Workshop 4: Variabelen gebruiken</h3>
+                        <div id="done5" class="done">
+                            <img class="done-check" src="img/check.svg" alt="done">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button type="button" class="workshop textBtn">Workshop
+                        </button>
+                    </div>
+                </div>
+                <div class="accordion-cont">
+                    <h4>Workshop 4: Variabelen gebruiken</h4>
+                    <video id="player5" class="video-js" data-setup='{"fluid":true}'>
+                        <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4> 
+                    </video> 
+                    <button type="button" id="rewind5" class="btn rewindBtn">
+                        <img class="rewindIcon" src="img/rewind.svg" alt="rewind">
+                    </button>
+                    <button type="button" id="play5" class="btn playBtn">
+                        <img class="playIcon" src="img/play.svg" alt="play">
+                    </button>
+                    <button type="button" id="check5" class="btn checkBtn">
+                        <img class="checkIcon" src="img/check.svg" alt="check">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="support" class="wrap">
+            <div class="section-title">
+                <h3>Support</h3>
+            </div>
+            <div class="section-title">
+                <h2>Kom je er niet uit?</h2>
+                <h2>Wij helpen je graag verder</h2>
+            </div>
+            <div id="team" class="wrap">
+                <div id="thumb-1" class="thumb">
+                    <img class="thumb-photo" src="img/kal-visuals-592091-unsplash@2x.jpg" alt="kal-visuals">
+                    <div class="thumb-text">
+                        <h3>Klaartje Klaassen</h3>
+                        <h5>Hoofd contactpersoon</h5>
+                        <button type="button" class="email" onclick="window.location.href='#';">email</button>
+                    </div>
+                </div>
+                <div id="thumb-2" class="thumb">
+                    <img class="thumb-photo" src="img/giorgio-encinas-781653-unsplash@2x.jpg" alt="giorgio-encinas">
+                    <div class="thumb-text">
+                        <h3>Klaartje Klaassen</h3>
+                        <h5>Hoofd contactpersoon</h5>
+                        <button type="button" class="email" onclick="window.location.href='#';">email</button>
+                    </div>
+                </div>
+                <div id="thumb-3" class="thumb">
+                    <img class="thumb-photo" src="img/norman-toth-177973-unsplash@2x.jpg" alt="norman-toth">
+                    <div class="thumb-text">
+                        <h3>Klaartje Klaassen</h3>
+                        <h5>Hoofd contactpersoon</h5>
+                        <button type="button" class="email" onclick="window.location.href='#';">email</button>
+                    </div>
+                </div>
+                <div id="thumb-4" class="thumb">
+                    <img class="thumb-photo" src="img/alina-kovalchuk-1143928-unsplash@2x.jpg" alt="alina-kovalchuk">
+                    <div class="thumb-text">
+                        <h3>Klaartje Klaassen</h3>
+                        <h5>Hoofd contactpersoon</h5>
+                        <button type="button" class="email" onclick="window.location.href='#';">email</button>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="bottom-banner">
+            <div id="bottom-text">
+                <h2>Klaar voor de volgende uitdaging?</h2>
+                <h5>In ons expertprogramma vind je lessen voor gevorderden</h5>
+                
+                <button type="button" id="actionBtn" onclick="window.location.href='#';">kom maar op
+                </button>
+                
+            </div>
+        </div>
+        <div id="overlay" class="popup">
+            <div class="modal">
+                <div class="close">
+                    <img id="close" src="img/close.svg" alt="close-icon">
+                </div>
+                <div id="popup-ani"></div>
+                <div id="popup-cont">Je hebt de video bekeken!</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h4>switch theme</h4>
+        <div id="toggle">
+            <img id="sun" src="img/sun.svg" alt="sun">
+            <img id="moon" src="img/moon.svg" alt="moon">
+            <div id="toggleBall"></div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+    <!-- plaats scripts voor het sluiten van de body -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.5.4/video.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
